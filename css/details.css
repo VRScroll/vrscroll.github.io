@@ -1,0 +1,14 @@
+.project-page .project-metric-row { margin: 0 -8px 24px; row-gap: 16px; }
+.project-page .project-metric-row > div { padding: 0 8px; }
+.project-page .project-results-table { margin: 8px 0 24px; font-size: 16px; }
+.project-page .project-results-table caption { caption-side: top; color: var(--gray); font-size: 14px; }
+.project-page .project-results-table th, .project-page .project-results-table td { padding: 12px; vertical-align: top; }
+.project-page .project-results-table thead { background: var(--very-light-orange); }
+.project-page .project-results-table th[scope="row"] { font-weight: normal; }
+.project-page .project-copy h3 { margin-top: 28px; margin-bottom: 12px; }
+.project-page .project-copy figure { margin: 24px 0; }
+.project-page .project-copy li { margin-bottom: 10px; }
+@media (max-width: 767px) {
+ .project-page .project-metric-row .project-metric { margin-bottom: 0; }
+ .project-page .project-results-table { font-size: 14px; }
+}
